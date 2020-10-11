@@ -86,6 +86,7 @@
   <build_export_depend>tf2_ros</build_export_depend>
   <exec_depend>geometric_shapes</exec_depend>
   <exec_depend>interactive_markers</exec_depend>
+  <exec_depend>message_generation</exec_depend>
   <exec_depend>moveit_core</exec_depend>
   <exec_depend>moveit_ros_perception</exec_depend>
   <exec_depend>moveit_ros_planning</exec_depend>

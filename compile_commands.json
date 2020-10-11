@@ -1,5 +1,10 @@
 [
 {
+  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lee_aubo_i5_control_demo\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE -I/usr/include/pcl-1.8 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/vtk-6.3 -I/usr/include/freetype2 -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -I/usr/include/hdf5/openmpi -I/usr/include/libxml2 -I/usr/include/jsoncpp -I/usr/include/tcl    -o CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o -c /home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/move_to_point.cpp",
+  "file": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/move_to_point.cpp"
+},
+{
   "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock",
   "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
   "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
