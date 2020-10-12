@@ -121,7 +121,7 @@ catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES lee_aubo_i5_control_demo
     CATKIN_DEPENDS geometric_shapes interactive_markers message_generation moveit_core moveit_ros_perception moveit_ros_planning moveit_ros_planning_interface moveit_visual_tools pcl_conversions pcl_ros pluginlib rosbag roscpp rospy std_msgs tf2_eigen tf2_geometry_msgs tf2_ros
-    DEPENDS system_lib
+    # DEPENDS system_lib
 )
 
 ###########
@@ -150,6 +150,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/lee_aubo_i5_control_demo_node.cpp)
 add_executable(move_to_point src/move_to_point.cpp)
+add_executable(collision src/collision.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -167,6 +168,9 @@ add_executable(move_to_point src/move_to_point.cpp)
 # )
 
 target_link_libraries(move_to_point
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(collision
   ${catkin_LIBRARIES}
 )
 #############

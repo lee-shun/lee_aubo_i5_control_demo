@@ -96,7 +96,7 @@ int main(int argc, char **argv) {
       ROS_INFO("Still trying after %d attempts...", attempts);
   }
 
-  if (true) { // fraction == 1
+  if (true) { /* fraction == 1, then the path will be fully covered*/
     ROS_INFO("Path computed successfully. Moving the arm.");
 
     /* 生成机械臂的运动规划数据*/
