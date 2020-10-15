@@ -1,42 +1,62 @@
 [
 {
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build",
-  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lee_aubo_i5_control_demo\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/usr/include/OGRE -I/usr/include/pcl-1.8 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/vtk-6.3 -I/usr/include/freetype2 -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu -I/usr/include/hdf5/openmpi -I/usr/include/libxml2 -I/usr/include/jsoncpp -I/usr/include/tcl    -o CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o -c /home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/move_to_point.cpp",
-  "file": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/move_to_point.cpp"
-},
-{
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
-  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
-},
-{
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
-  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
-},
-{
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
   "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
 },
 {
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
-  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
-},
-{
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
   "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
 },
 {
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock/gtest",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "directory": "/home/lee/catkin_ws/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
   "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
 },
 {
-  "directory": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/build/gtest/googlemock/gtest",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "directory": "/home/lee/catkin_ws/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
   "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/lee_aubo_i5_control_demo",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lee_aubo_i5_control_demo\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2    -o CMakeFiles/collision.dir/src/collision.cpp.o -c /home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/collision.cpp",
+  "file": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/collision.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/lee_aubo_i5_control_demo",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"lee_aubo_i5_control_demo\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -I/usr/include/pcl-1.10 -I/usr/include/vtk-7.1 -I/usr/include/freetype2    -o CMakeFiles/move_to_point.dir/src/move_to_point.cpp.o -c /home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/move_to_point.cpp",
+  "file": "/home/lee/catkin_ws/src/lee_aubo_i5_control_demo/src/move_to_point.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/ur5_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ur5_control\\\" -I/home/lee/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet    -std=c++11 -o CMakeFiles/coll.dir/scene/src/obj/SceneBase.cpp.o -c /home/lee/catkin_ws/src/ur5_control/scene/src/obj/SceneBase.cpp",
+  "file": "/home/lee/catkin_ws/src/ur5_control/scene/src/obj/SceneBase.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/ur5_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ur5_control\\\" -I/home/lee/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet    -std=c++11 -o CMakeFiles/coll.dir/scene/src/CollisionObjects.cpp.o -c /home/lee/catkin_ws/src/ur5_control/scene/src/CollisionObjects.cpp",
+  "file": "/home/lee/catkin_ws/src/ur5_control/scene/src/CollisionObjects.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/ur5_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ur5_control\\\" -I/home/lee/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet    -std=c++11 -o CMakeFiles/apple.dir/scene/src/obj/SceneBase.cpp.o -c /home/lee/catkin_ws/src/ur5_control/scene/src/obj/SceneBase.cpp",
+  "file": "/home/lee/catkin_ws/src/ur5_control/scene/src/obj/SceneBase.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/ur5_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ur5_control\\\" -I/home/lee/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet    -std=c++11 -o CMakeFiles/apple.dir/scene/src/AppleTrack.cpp.o -c /home/lee/catkin_ws/src/ur5_control/scene/src/AppleTrack.cpp",
+  "file": "/home/lee/catkin_ws/src/ur5_control/scene/src/AppleTrack.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/ur5_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ur5_control\\\" -I/home/lee/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet    -std=c++11 -o CMakeFiles/planner.dir/scene/src/obj/SceneBase.cpp.o -c /home/lee/catkin_ws/src/ur5_control/scene/src/obj/SceneBase.cpp",
+  "file": "/home/lee/catkin_ws/src/ur5_control/scene/src/obj/SceneBase.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/ur5_control",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ur5_control\\\" -I/home/lee/catkin_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet    -std=c++11 -o CMakeFiles/planner.dir/scene/src/Planner.cpp.o -c /home/lee/catkin_ws/src/ur5_control/scene/src/Planner.cpp",
+  "file": "/home/lee/catkin_ws/src/ur5_control/scene/src/Planner.cpp"
 }
 ]
